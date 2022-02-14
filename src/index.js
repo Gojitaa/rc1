@@ -15,6 +15,7 @@ class List extends React.Component {
     console.log('List mount')
 
     this.setState({ listId: '456f-6789-3421' })
+    console.log(this.state.listId)
   }
 
   shouldComponentUpdate(previousProps, previousState){
