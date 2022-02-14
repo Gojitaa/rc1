@@ -30,6 +30,7 @@ class List extends React.Component {
     }</ul>
   }
 }
+
 class App extends React.Component {
   constructor(props) {
     super(props)
