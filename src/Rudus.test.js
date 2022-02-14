@@ -7,7 +7,7 @@ describe('Rudus.createElement', () => {
     /*
       JSX
       <div id='container'>
-        <h1>Hello World</h1>
+        <h1 id='title'>Hello World</h1>
       </div>
     */
     const VNode = Rudus.createElement(
